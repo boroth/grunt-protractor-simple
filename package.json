@@ -1,0 +1,43 @@
+{
+  "name": "grunt-protractor-simple",
+  "description": "A simple grunt plugin for registering Protractor tasks. No support for flags at the moment.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/boroth/grunt-protractor-simple",
+  "author": {
+    "name": "Bo Roth",
+    "email": "robert.bo.roth@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boroth/grunt-protractor-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boroth/grunt-protractor-simple/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/boroth/grunt-protractor-simple/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+      "protractor": "latest",
+    "shelljs": "latest",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt-protractor",
+    "gruntprotractor",
+    "protractorsimple"
+  ]
+}
