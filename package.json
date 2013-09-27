@@ -1,7 +1,7 @@
 {
   "name": "grunt-protractor-simple",
   "description": "A simple grunt plugin for registering Protractor tasks. No support for flags at the moment.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/boroth/grunt-protractor-simple",
   "author": {
     "name": "Bo Roth",
