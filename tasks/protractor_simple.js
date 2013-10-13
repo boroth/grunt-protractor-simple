@@ -43,12 +43,15 @@ module.exports = function(grunt) {
         }).forEach(function(filepath) {
                 // Run protractor with each file
                 console.log('Running \'protractor ' + filepath + '\'');
-                shell.exec("protractor " + filepath,
+                var child = shell.exec("protractor " + filepath,
                     {
                         aysnc: false,
                         silent: false
                     }
                 );
+                if ( child.code != 0 ) {
+                    process.exit(1);
+                }
             });
 
         // Print a success message.
