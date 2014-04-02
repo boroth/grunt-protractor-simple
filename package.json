@@ -26,9 +26,11 @@
   },
   "scripts": {
   },
+  "dependencies": {
+    "protractor": "latest",
+    "shelljs": "latest"
+  },
   "devDependencies": {
-      "protractor": "latest",
-    "shelljs": "latest",
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
